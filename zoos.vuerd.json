@@ -1,0 +1,431 @@
+{
+  "canvas": {
+    "width": 2000,
+    "height": 2000,
+    "scrollTop": 0,
+    "scrollLeft": 1.6666666269302368,
+    "show": {
+      "tableComment": true,
+      "columnComment": true,
+      "columnDataType": true,
+      "columnDefault": true,
+      "columnAutoIncrement": false,
+      "columnPrimaryKey": true,
+      "columnUnique": false,
+      "columnNotNull": true,
+      "relationship": true
+    },
+    "database": "SQLite",
+    "databaseName": "",
+    "canvasType": "ERD",
+    "language": "GraphQL",
+    "tableCase": "pascalCase",
+    "columnCase": "camelCase",
+    "setting": {
+      "relationshipDataTypeSync": true,
+      "columnOrder": [
+        "columnName",
+        "columnDataType",
+        "columnNotNull",
+        "columnUnique",
+        "columnAutoIncrement",
+        "columnDefault",
+        "columnComment"
+      ]
+    }
+  },
+  "table": {
+    "tables": [
+      {
+        "name": "animals",
+        "comment": "",
+        "columns": [
+          {
+            "name": "id",
+            "comment": "",
+            "dataType": "INTEGER",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": true,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": true,
+              "fk": false,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "35a80c6e-cc67-a1af-2dde-65c386a8ecbb"
+          },
+          {
+            "name": "name",
+            "comment": "",
+            "dataType": "TEXT",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "61b5ca2d-5332-2c6c-f6ab-00905ca34428"
+          },
+          {
+            "name": "species_id",
+            "comment": "",
+            "dataType": "INTEGER",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": true,
+              "pfk": false,
+              "widthName": 64,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "84b6918f-cc51-5804-3adc-28bb30d4857e"
+          }
+        ],
+        "ui": {
+          "active": false,
+          "left": 17,
+          "top": 594,
+          "zIndex": 69,
+          "widthName": 60,
+          "widthComment": 60
+        },
+        "id": "2408f9e1-6479-2d24-dc87-cc233b06f0af"
+      },
+      {
+        "name": "zoos",
+        "comment": "",
+        "columns": [
+          {
+            "name": "id",
+            "comment": "",
+            "dataType": "INTEGER",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": true,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": true,
+              "fk": false,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "3fad49f5-2db9-d201-ea95-6120f63c894b"
+          },
+          {
+            "name": "name",
+            "comment": "",
+            "dataType": "TEXT",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "b64b4d1a-0067-2be8-1f7b-c0d7500a3727"
+          },
+          {
+            "name": "address",
+            "comment": "",
+            "dataType": "TEXT",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "74d71596-ade4-8d6b-0774-ce069f41c14b"
+          }
+        ],
+        "ui": {
+          "active": false,
+          "left": 924,
+          "top": 592,
+          "zIndex": 79,
+          "widthName": 60,
+          "widthComment": 60
+        },
+        "id": "64e987c7-b486-baca-4b1d-c59e04e10890"
+      },
+      {
+        "name": "species",
+        "comment": "",
+        "columns": [
+          {
+            "name": "id",
+            "comment": "",
+            "dataType": "INTEGER",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": true,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": true,
+              "fk": false,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "f6cc5fe3-d1bb-85fd-15fa-df8f053ca2b4"
+          },
+          {
+            "name": "name",
+            "comment": "",
+            "dataType": "TEXT",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "fea7fb15-842b-bb36-a90a-1358390f92e2"
+          }
+        ],
+        "ui": {
+          "active": false,
+          "left": 58.5,
+          "top": 227,
+          "zIndex": 75,
+          "widthName": 60,
+          "widthComment": 60
+        },
+        "id": "abd45981-7af6-ee7b-4f94-b6845ce679a8"
+      },
+      {
+        "name": "zoo_animals",
+        "comment": "",
+        "columns": [
+          {
+            "name": "id",
+            "comment": "",
+            "dataType": "INTEGER",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": true,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": true,
+              "fk": false,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "99f7d764-06d2-fd8e-4ef9-596e3ff50eb1"
+          },
+          {
+            "name": "zoo_id",
+            "comment": "",
+            "dataType": "INTEGER",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": true,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "d97feba0-6885-aa2c-0ee8-c34ccf1adb2c"
+          },
+          {
+            "name": "animal_id",
+            "comment": "",
+            "dataType": "INTEGER",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": true,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "58ec5f77-422c-3968-8c4a-77d54568a260"
+          }
+        ],
+        "ui": {
+          "active": false,
+          "left": 470.8333333134651,
+          "top": 395,
+          "zIndex": 74,
+          "widthName": 75,
+          "widthComment": 60
+        },
+        "id": "74aae789-5b4e-9834-a8ad-1e1456e9c15f"
+      }
+    ],
+    "indexes": []
+  },
+  "memo": {
+    "memos": []
+  },
+  "relationship": {
+    "relationships": [
+      {
+        "identification": false,
+        "start": {
+          "tableId": "abd45981-7af6-ee7b-4f94-b6845ce679a8",
+          "columnIds": [
+            "f6cc5fe3-d1bb-85fd-15fa-df8f053ca2b4"
+          ],
+          "x": 232,
+          "y": 337,
+          "direction": "bottom"
+        },
+        "end": {
+          "tableId": "2408f9e1-6479-2d24-dc87-cc233b06f0af",
+          "columnIds": [
+            "84b6918f-cc51-5804-3adc-28bb30d4857e"
+          ],
+          "x": 192.5,
+          "y": 594,
+          "direction": "top"
+        },
+        "id": "1f947934-e631-081a-7cfe-7a6c09326f08",
+        "relationshipType": "OneN"
+      },
+      {
+        "identification": false,
+        "start": {
+          "tableId": "64e987c7-b486-baca-4b1d-c59e04e10890",
+          "columnIds": [
+            "3fad49f5-2db9-d201-ea95-6120f63c894b"
+          ],
+          "x": 924,
+          "y": 657.25,
+          "direction": "left"
+        },
+        "end": {
+          "tableId": "74aae789-5b4e-9834-a8ad-1e1456e9c15f",
+          "columnIds": [
+            "d97feba0-6885-aa2c-0ee8-c34ccf1adb2c"
+          ],
+          "x": 817.8333333134651,
+          "y": 460.25,
+          "direction": "right"
+        },
+        "id": "ea6af701-d650-918a-82cd-6e4ecbf52e33",
+        "relationshipType": "OneN"
+      },
+      {
+        "identification": false,
+        "start": {
+          "tableId": "2408f9e1-6479-2d24-dc87-cc233b06f0af",
+          "columnIds": [
+            "35a80c6e-cc67-a1af-2dde-65c386a8ecbb"
+          ],
+          "x": 368,
+          "y": 659.25,
+          "direction": "right"
+        },
+        "end": {
+          "tableId": "74aae789-5b4e-9834-a8ad-1e1456e9c15f",
+          "columnIds": [
+            "58ec5f77-422c-3968-8c4a-77d54568a260"
+          ],
+          "x": 470.8333333134651,
+          "y": 460.25,
+          "direction": "left"
+        },
+        "id": "4db3db01-1861-5c71-3661-ca524001cd28",
+        "relationshipType": "OneN"
+      }
+    ]
+  }
+}

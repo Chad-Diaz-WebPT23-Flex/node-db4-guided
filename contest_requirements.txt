@@ -1,0 +1,26 @@
+Create a database that allows me to track competitions, where users are able to
+enter goals, and daily entries. Users score points for meeting their goals in
+each daily entry.
+
+The contests encourage healthy behaviors. Users have to set goals and record
+daily entries for the following:
+
+* hours of sleep
+* oz of water drunk
+* calories eaten
+* grams of protein
+* grams of carbs
+* grams of fat
+
+Points are scored for an entry based on the goal the entry relates to (the most
+recent goal set when the entry is made.)
+
+Users can create competitions, be designated as administrators of a competition,
+and be participants in a competition.
+
+Each competition must have one creator, and one administrator. The creator is
+the default administrator.
+
+
+Nouns - things : entities (tables)
+Descriptive nouns : fields
